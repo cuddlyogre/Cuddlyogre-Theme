@@ -1,0 +1,23 @@
+#meta_tag_settings_metabox{
+    display:table; 
+    width:100%;
+}
+
+#meta_tag_settings_metabox p:first-of-type{
+    margin-top: 0;
+}
+
+#meta_tag_settings_metabox .optionssection{
+    border-bottom: 1px solid #EEE;
+    padding: 0px 0px 6px;
+    margin-bottom: 6px;
+}
+
+#meta_tag_settings_metabox .optionssection input{
+    width: 100%;
+}
+
+#meta_tag_settings_metabox .button-primary{
+    float: right;
+}
+

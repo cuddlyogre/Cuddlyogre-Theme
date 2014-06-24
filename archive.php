@@ -1,0 +1,1 @@
+<?phpget_header();get_template_part('partials/title', 'archive');get_template_part('partials/loop', 'index');get_footer();

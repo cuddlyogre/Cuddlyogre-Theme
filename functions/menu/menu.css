@@ -1,0 +1,84 @@
+/*
+HEADER MENU START
+https://bugzilla.mozilla.org/show_bug.cgi?id=634169 - div corners not rendered when rendered above embedded flash object.
+http://www.ozonesolutions.com/programming/2011/08/youtube-videos-transparency-and-z-index/ - add ?wmode=opaque
+*/
+
+.menu-container {
+    float: left;
+    width: 100%;
+}
+
+.menu-container ul{
+    list-style:none;
+    padding: 0;
+}
+
+.menu{
+    display: table;
+    margin: 0 auto;
+}
+
+.menu li{
+    float:left;
+    position:relative;
+    padding:0;
+}
+
+.menu > li:not(:first-of-type){
+    margin-left: 10px;
+}
+
+.menu .sub-menu{
+    background-color:#000;
+    float:left;
+    position:absolute;
+    top:34px;
+    z-index:99999;
+    display:none;
+    min-width:215px;
+    width:100%;
+}
+
+.menu .sub-menu li{
+    width:100%;
+}
+.menu a,
+.menu .sub-menu li:last-of-type > a,
+.menu .sub-menu li:last-of-type > a:hover{
+    border-width: 2px;
+    border-color: #000;
+}
+
+.menu .sub-menu li:last-of-type > a,
+.menu .sub-menu li:last-of-type > a:hover{
+    
+    border-style: solid;
+}
+
+.menu .sub-menu .sub-menu{
+    top: 0;
+    left:100%;
+}
+
+.menu a{
+    background-color:#2A2A2A;
+    color: #FFF;
+    display: block;
+    font-size: 16px;
+    padding: 5px 15px;
+    text-decoration: none;
+    word-wrap: break-word;
+    border-style: solid solid none;
+}
+
+.menu a:hover,
+.menu .current-menu-item > a,
+.menu .current_page_parent > a, 
+.menu .current-menu-parent > a, 
+.menu .current-post-ancestor > a, 
+.menu .current-menu-ancestor > a, 
+.menu .current_page_item > a{
+    background-color: #FFF;
+    color: #000;
+}

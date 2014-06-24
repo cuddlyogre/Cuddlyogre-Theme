@@ -1,0 +1,60 @@
+.social_media_network_icon_contents{
+    margin: 10px 0;
+    float: left;
+    width:100%;
+}
+
+.social_media_network_icon_contents .add_remove_link{
+    margin-left:15px;
+}
+
+.social_media_network_icon_contents .base_social_media_network_icon{
+    display: none;
+}
+
+.social_media_network_icon_contents .iconslist{
+    float: left;
+}
+
+.social_media_network_icon_contents .iconslist p:first-child span:last-child span:first-child a,
+.social_media_network_icon_contents .iconslist p:last-child span:last-child span:nth-child(2) a{
+    color: grey;
+    cursor: default;
+}
+
+.social_media_network_icon_contents .maintenancelinks{
+    float:right;
+    margin-right: 10px;
+}
+
+.social_media_network_icon_contents .social_media_icon_network_select_label{
+    float: left;
+}
+
+.social_media_network_icon_contents .social_media_icon_network_select_label select{
+    width: 125px;
+    margin-right: 15px;
+}
+
+.social_media_network_icon_contents a{
+    cursor:pointer;
+}
+
+.social_media_network_icon_contents .social_media_icon_network_input_label{
+    float: left;
+}
+
+.social_media_network_icon_contents .social_media_icon_network_input_label input{
+    width: 316px;
+}
+
+.social_media_network_icon_contents input.title{
+    width:100%;
+}
+
+.social_media_network_icon_contents p{
+    display: table;
+    width: 100%;
+    float: left;
+    margin-top: 0;
+}

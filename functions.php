@@ -1,0 +1,1 @@
+<?php//don't include the kitchen sink, separate it out require_once 'functions/helpers.php';require_once 'functions/themeSupport.php';loadFunctions();

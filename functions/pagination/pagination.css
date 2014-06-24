@@ -1,0 +1,33 @@
+.postpagination,
+.blogpagination{
+    float:left;
+    width:100%;
+}
+
+.postpagination ul,
+.blogpagination ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.prev,
+#prev{
+    text-align: left;
+}
+
+.next,
+#next{
+    text-align: right;    
+}
+
+.prev {
+    float: left;
+    width: 50%;
+}
+
+.next {
+    float: right;
+    width: 50%;
+}

@@ -1,0 +1,1 @@
+<?phpget_header();get_template_part('partials/featured', 'frontpage');get_template_part('partials/loop', 'frontpage');get_footer();

@@ -1,0 +1,18 @@
+#featured_image_settings_metabox{
+    display:table; 
+    width:100%;
+}
+
+#featured_image_settings_metabox p:first-of-type{
+    margin-top: 0;
+}
+
+#featured_image_settings_metabox .optionssection{
+    border-bottom: 1px solid #EEE;
+    padding: 0px 0px 6px;
+    margin-bottom: 6px;
+}
+
+#featured_image_settings_metabox .button-primary{
+    float: right;
+}
